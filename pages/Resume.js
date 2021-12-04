@@ -12,12 +12,14 @@ const Resume = () => {
                     <ul className={styles.download}>
                         <li><a href=""
                         target="_blank"
+                        rel="noopener noreferrer"
                         >
                             <i><FaLinkedin /></i>
                             <span>Linkedin</span>
                         </a></li>
                         <li><a href="https://docs.google.com/document/d/1RSEx5hRJ9pqsqC9ZQ3rCfJxdo09vKlVA2GNg1DwB9ks/edit"
                         target="_blank"
+                        rel="noopener noreferrer"
                         >
                             <i><FiDownloadCloud /></i>
                             <span>Download</span>

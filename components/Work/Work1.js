@@ -76,12 +76,14 @@ const Work1 = () => {
                             <li>
                                 <i><BsFillEyeFill /></i>
                                 <a href={work.live}
-                                target="_blank">live</a>
+                                target="_blank"
+                                rel="noopener noreferrer">live</a>
                             </li>
                             <li>
                                 <i><FaLink /></i>
                                 <a href={work.code}
-                                target="_blank">code</a>
+                                target="_blank"
+                                rel="noopener noreferrer">code</a>
                             </li>
                         </ul>
                     </div>

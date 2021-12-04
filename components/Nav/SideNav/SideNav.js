@@ -51,13 +51,15 @@ const SideNav = () => {
                         <li>
                             <p><i><FaGithub /></i></p>
                             <a href="https://github.com/Damkols"
-                            target="_blank">Github</a>
+                            target="_blank"
+                            rel="noopener noreferrer">Github</a>
                             <p><i><FaExternalLinkAlt /></i></p>
                         </li>
                         <li>
                             <p><i><FaTwitter /></i></p>
                             <a href="https://twitter.com/kolsCodes"
                             target="_blank"
+                            rel="noopener noreferrer"
                             >Twitter</a>
                             <p><i><FaExternalLinkAlt /></i></p>
                         </li>
@@ -67,6 +69,7 @@ const SideNav = () => {
                 <div className={styles.inspire}>
                 <span>inspired by <a href="https://kadet.dev/"
                 target="_blank"
+                rel="noopener noreferrer"
                 >Collins Enebeli</a></span>
                 </div>
             </div>
