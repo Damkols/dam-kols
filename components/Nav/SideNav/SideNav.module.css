@@ -1,0 +1,175 @@
+
+.container{
+    width: 100%;
+    height: 90vh;
+    background-color: #101011;
+}
+.sideNav{
+    max-width: 37%;
+    position: fixed;
+}
+
+.navHeader > h1{
+    color: #fff;
+    font-size: 2.7rem;
+    font-family: "Raleway", sans-serif;
+    padding: 10px 0 0 10px;
+}
+
+.sideNav > .navHeader > p{
+        color: #777778;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        padding: 20px 10px 0 10px;
+        line-height: 1.5;
+        margin-right: 50px;
+        max-width: 90%;
+}
+
+.dNav{
+    margin-top: 60px;
+    max-width: 30%;
+}
+
+.dNav > ul{
+    display: flex;
+    flex-direction: column;
+}
+
+.dNav > ul > li{
+    margin: 0 0 20px 10px ;
+    list-style-type: none;
+}
+
+.dNav > ul > li > a{
+    color: #6E6D7A;
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.dNav > ul > li > a:hover{
+    color: #fff;
+}
+
+.dNav > ul > li > a:focus {
+    color: #fff;
+}
+
+.dNav > ul > li > a:hover .btnNavLine{
+    background: #fff;
+    opacity: 1;
+    width: 50px;
+    transition: width .3s linear;
+}
+
+.dNav > ul > li > a:focus .btnNavLine{
+    background: #fff;
+    opacity: 1;
+    width: 50px;
+    transition: width .3s linear;
+}
+
+.dNav > ul > li > a > .btnNavLine{
+    height: 1px;
+    width: 30px;
+    background: #fff;
+    opacity: .5;
+    margin: 5px 7px;
+    display: block;
+    pointer-events: none;
+    transition: width .3s linear;
+}
+
+/* styling User info of the sidenav */
+.user{
+    margin: 50px 0 0 10px;
+    display: flex;
+}
+
+.user > .userImg > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 140% 120% 140% 100%;
+    margin-bottom: 10px;
+}
+
+.user > ul{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    list-style: none;
+}
+
+.user > ul > li{
+    list-style-type: none;
+    display: flex;
+    margin-right: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.user > ul > li > p{
+    color: #6E6D7A;
+    font-size: 10px;
+}
+
+.user > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    font-size: 13px;
+    margin: 0 5px 0 5px;
+}
+
+
+.inspire{
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: "Roboto", sans-serif;
+    color: #6E6D7A;
+}
+
+.inspire > span{
+    font-size: 13px;
+}
+
+.inspire > span > a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+@media screen and (min-height: 600px) {
+    .dNav{
+        margin-top: 120px;
+    }
+
+    .user{
+        margin: 120px 0 0 10px;
+    }
+}
+
+@media screen and (max-height: 700px) {
+    .dNav{
+        margin-top: 80px;
+    }
+
+    .user{
+        margin: 70px 0 0 10px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .dNav{
+        margin-top: 40px;
+    }
+
+    .user{
+        margin: 40px 0 0 10px;
+    }
+}

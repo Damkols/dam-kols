@@ -1,0 +1,37 @@
+/* styling website layout */
+.layout{
+    width: 90%;
+    background: #101011;
+    display: flex;
+    justify-content: space-between;
+    height: 90vh;
+    margin: 50px auto 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    /* styling layout sidenav */
+.sideNav{
+    width: 40%;
+    font-family: "Roboto", sans-serif;
+}
+
+ /* styling website layout (children/pages) */
+.children{
+    width: 50%;
+}
+
+@media screen and (max-width: 1000px) {
+    /* styling website layout for mobile screens */
+    .layout{
+        display: block;
+        height: 100vh;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    /* styling website layout (children/pages) for mobile screens */
+    .children{
+        width: 100%;
+    }
+}
