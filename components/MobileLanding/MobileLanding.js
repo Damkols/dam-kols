@@ -11,7 +11,7 @@ const MobileLanding = () => {
              <div className={styles.content}>
                 <div className={styles.home}>
                     <div className={styles.userImg}><img src="/img.png" alt="User picture" /></div>
-                    <h1>Hello, I'm Kolapo Damola.</h1>
+                    <h1>Hello, I&apos;m Kolapo Damola.</h1>
                     <p>I am a Frontend Engineer with a passion for designing clean, accessible and intuitive web applications, and I have an eye for design with a user-driven approach to development.</p>
                     
                     <Link href="Work">
