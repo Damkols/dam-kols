@@ -9,7 +9,7 @@ const SideNav = () => {
         <div className={styles.container}>
             <div className={styles.sideNav}>
                 <div className={styles.navHeader}>
-                    <h1>Hello, I'm <br/> Kolapo Damola.</h1>
+                    <h1>Hello, I&apos;m <br/> Kolapo Damola.</h1>
                     <p>I am a Frontend Engineer with a passion for designing clean, accessible and intuitive web applications, and I have an eye for design with a user-driven approach to development</p>
                 </div>
 
