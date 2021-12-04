@@ -10,7 +10,7 @@ const Resume = () => {
                 <div className={styles.userInfo}>
                     <h1>Kolapo Damola</h1>
                     <ul className={styles.download}>
-                        <li><a href=""
+                        <li><a href="https://www.linkedin.com/in/kolapo-damola-usman-810996133/"
                         target="_blank"
                         rel="noopener noreferrer"
                         >
