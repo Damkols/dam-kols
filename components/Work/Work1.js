@@ -9,12 +9,21 @@ const Work1 = () => {
 
     const [works, setWorks] = useState([
         {
+            title: "Portfolio",
+            tools: "Nextjs, CSS",
+            description: "A portfolio website showcasing my works and resume.",
+            live: "https://dam-kols.vercel.app/",
+            code: "https://github.com/Damkols/dam-kols",
+            id: 1
+        },
+
+        {
             title: "Movies-App",
             tools: "React, CSS",
-            description: "A movies website which displays ratings of a movie, and short description.",
+            description: "A movies website which displays ratings of a movie, and description.",
             live: "https://damkols.github.io/movies-app",
             code: "https://github.com/Damkols/movies-app",
-            id: 1
+            id: 2
         },
 
         {
@@ -23,7 +32,7 @@ const Work1 = () => {
             description: "A website that displays random quotes and advice.",
             live: "https://quotegenerator1.netlify.app/",
             code: "https://github.com/Damkols/Quote-generator",
-            id: 2
+            id: 3
         },
 
         {
@@ -32,7 +41,7 @@ const Work1 = () => {
             description: "A Crypto website that displays basic information about Crypto-currencies.",
             live: "https://damkols.github.io/Coin-tracker",
             code: "https://github.com/Damkols/Coin-tracker",
-            id: 3
+            id: 4
         },
 
         {
@@ -41,7 +50,7 @@ const Work1 = () => {
             description: "Concept Landing page for Pepsi.",
             live: "https://damkols.github.io/Pepsi-landing-page",
             code: "https://github.com/Damkols/Pepsi-landing-page",
-            id: 4
+            id: 5
         },
 
         {
@@ -50,16 +59,16 @@ const Work1 = () => {
             description: "A simple resume website",
             live: "https://damkols.github.io/HNG-resume",
             code: "https://github.com/Damkols/HNG-resume",
-            id: 5
+            id: 6
         },
 
         {
             title: "404 page",
             tools: "HTML and CSS",
-            description: "A simple 404 page",
+            description: "A simple 404 page.",
             live: "https://rwd404page.netlify.app/",
             code: "https://github.com/Damkols/Mobile-responsive-404-error-page",
-            id: 6
+            id: 7
         }
 
     ]);
@@ -67,7 +76,7 @@ const Work1 = () => {
     return (
         <div className={styles.works}>
             {works.map((work) => (
-                <div className={styles.workCard} key={work.id}>
+                <div className={styles.workCard} key="index">
                     <div className={styles.card}>
                         <h2>{work.title}</h2>
                         <h3>{work.tools}</h3>
