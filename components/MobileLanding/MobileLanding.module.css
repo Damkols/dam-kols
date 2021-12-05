@@ -1,13 +1,14 @@
 
 .content{
     width: 90%;
-    height: 90%;
+    height: 100%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .home{
     width: 100%;
-    height: 80vh;
+    height: 80%;
     text-align: center;
     padding: 10px 20px;
     background-color: #101011;
@@ -79,7 +80,7 @@
 } 
 
 .footer{
-    height: 5vh;
+    height: 10%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -93,7 +94,7 @@
 }
 
 .footer > .socials > a > i{
-    margin: 0 50px;
+    margin: 0 20px;
     color: #fff;
 }
 
@@ -153,20 +154,32 @@
     }
 }
 
-@media screen and (min-height: 480px) {
+@media screen and (min-height: 500px) {
     .home > .explore > a > i{
         margin-top: 5px;
+    }
+
+    .home{
+        width: 100%;
+        height: 70vh;
     }
 
 }
 
 
-@media screen and (max-height: 480px) {
+@media screen and (max-height: 500px) {
     .home{
-        height: 70vh;
+        height: 60%;
+        padding: 10px 10px;
     }
 
     .home > .explore{
         margin: 15px auto;
     }
+
+    
+.home{
+    text-align: center;
+    
+}
 }

@@ -1,7 +1,7 @@
 
 .works{
     width: 100%;
-    height: 90vh;
+    height: 80%;
     background-color: #101011;
 }
 
@@ -84,14 +84,14 @@
     }
 
     .workCard > .card{
-    height: 24ch;
+    height: 22ch;
     background-color: #16161A;
     padding: 10px;
-}
+    }
 
 .workCard > .card > ul{
     justify-self: flex-end;
     margin-top: auto;
-    padding: 5px 5px 0;
+    padding: 0 5px 5px;
 }
 }
