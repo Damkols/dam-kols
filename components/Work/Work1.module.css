@@ -18,9 +18,11 @@
 }
 
 .workCard > .card{
-    height: 23ch;
+    height: 22ch;
     background-color: #16161A;
     padding: 10px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .workCard > .card > h2{
@@ -44,16 +46,18 @@
     letter-spacing: .6px;
     padding: 5px;
     font-family: "Raleway", sans-serif;
-    margin: 0 30px 2px 0;
 }
 
 .workCard > .card > ul{
     list-style-type: none;
     display: flex;
-    padding: 5px 5px 0;
+    padding: 5px 5px 10px;
+    justify-self: flex-end;
+    margin-top: auto;
 }
 
 .workCard > .card > ul > li{
+    margin-top: auto;
     display: flex;
     align-items: center;
     margin-right: 10px;
@@ -80,8 +84,14 @@
     }
 
     .workCard > .card{
-    height: 25ch;
+    height: 24ch;
     background-color: #16161A;
     padding: 10px;
+}
+
+.workCard > .card > ul{
+    justify-self: flex-end;
+    margin-top: auto;
+    padding: 5px 5px 0;
 }
 }

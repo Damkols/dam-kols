@@ -157,4 +157,16 @@
     .home > .explore > a > i{
         margin-top: 5px;
     }
+
+}
+
+
+@media screen and (max-height: 480px) {
+    .home{
+        height: 70vh;
+    }
+
+    .home > .explore{
+        margin: 15px auto;
+    }
 }
