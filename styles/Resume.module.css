@@ -1,110 +1,118 @@
-
-.container{
-    width: 100%;
-    height: 90vh;
-    background-color: #101011;
+.container {
+  width: 100%;
+  height: 90vh;
+  background-color: #101011;
 }
 
-
-.resume{
-    max-width: 100%;
-    background-color: #16161A;
-    border: 1px solid #16161A;
-    margin: 20px;
-    padding: 15px;
+.resume {
+  max-width: 100%;
+  background-color: #16161a;
+  border: 1px solid #16161a;
+  margin: 20px;
+  padding: 15px;
 }
 
-.resume > .userInfo{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.resume > .userInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.resume > .userInfo > h1{
-    color: #fff;
-    font-size: 29px;
-    font-weight: 500;
-    padding: 10px;
-    font-family: "Roboto", sans-serif;
+.resume > .userInfo > h1 {
+  color: #fff;
+  font-size: 29px;
+  font-weight: 500;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
 }
 
-.resume > .userInfo > .download{
-    display: flex;
+.resume > .userInfo > .download {
+  display: flex;
 }
 
-.resume > .userInfo > .download > li{
-    list-style-type: none;
-    margin-left: 10px;
-    color: #fff;
-    font-family: "Raleway", sans-serif;
-    font-size: 13px;
+.resume > .userInfo > .download > li {
+  list-style-type: none;
+  margin-left: 10px;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
 }
 
-.resume > .userInfo > .download > li > a{
-    font-size: 12px;
-    text-decoration: none;
-    color: #fff;
-    display: flex;
-    align-items: center;
+.resume > .userInfo > .download > li > a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
-.resume > .userInfo > .download > li > a > i{
-    padding: 0 3px;
-    text-decoration: none;
-    color: #fff;
-    margin-top: 2.5px;
-    font-size: 15px;
+.resume > .userInfo > .download > li > a > i {
+  padding: 0 3px;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 2.5px;
+  font-size: 15px;
 }
 
-.template{
-    margin: 10px;
-    margin-bottom: 10px;
+.template {
+  margin: 10px;
+  margin-bottom: 10px;
 }
 
-.template > h4{
-    font-size: 16px;
-    font-family: "Raleway", sans-serif;
-    color: #fff;
-    font-weight: 400;
-    padding: 5px 5px 7px 0;
+.template > h4 {
+  font-size: 16px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-weight: 400;
+  padding: 5px 5px 7px 0;
 }
 
-.template > h4 > hr{
-    margin: 2px 0;
+.template > h4 > hr {
+  margin: 2px 0;
 }
 
-.template > p{
-    font-size: 15px;
-    font-weight: 400;
-    color: #777778;
-    padding: 5px 5px 5px 0;
-    font-family: "Roboto", sans-serif;
+.template > p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #777778;
+  padding: 5px 5px 5px 0;
+  font-family: "Roboto", sans-serif;
 }
 
-.template > ul{
-    list-style-type: none;
+.template > ul {
+  list-style-type: none;
 }
 
 .template > ul > li > p {
-    font-size: 15px;
-    font-weight: 400;
-    color: #777778;
-    padding: 5px 5px 5px 0;
-    font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #777778;
+  padding: 5px 5px 5px 0;
+  font-family: "Roboto", sans-serif;
 }
 
+.container > .footerlinks {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .container > .footerlinks {
+    margin: 50px auto;
+    display: block;
+  }
+}
 
 @media only screen and (max-width: 500px) {
-    .resume{
-        margin: 15px;
-        padding: 5px;
-    }
+  .resume {
+    margin: 15px;
+    padding: 5px;
+  }
 
-    .resume > .userInfo > .download > li > a > i{
-        padding: 0 5px;
-    }
+  .resume > .userInfo > .download > li > a > i {
+    padding: 0 5px;
+  }
 
-    .resume > .userInfo > .download > li > a > span{
-        display: none;
-    }
+  .resume > .userInfo > .download > li > a > span {
+    display: none;
+  }
 }

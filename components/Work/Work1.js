@@ -3,6 +3,7 @@ import { useState } from "react";
 import styles from "./Work1.module.css";
 import { BsFillEyeFill } from "react-icons/bs";
 import { FaLink } from "react-icons/fa";
+import Footer from "../Footer/Footer";
 
 const Work1 = () => {
   const [works, setWorks] = useState([
@@ -25,6 +26,19 @@ const Work1 = () => {
       id: 2,
     },
   ]);
+
+  const footerLinks = [
+    {
+      link: "/",
+      title: "Home",
+      id: 1,
+    },
+    {
+      link: "/Resume",
+      title: "Resume",
+      id: 2,
+    },
+  ];
 
   return (
     <div className={styles.works}>
@@ -55,6 +69,9 @@ const Work1 = () => {
           </div>
         </div>
       ))}
+      <div className={styles.footerlinks}>
+        <Footer footerLinks={footerLinks} />
+      </div>
     </div>
   );
 };
