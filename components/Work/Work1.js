@@ -17,13 +17,22 @@ const Work1 = () => {
     },
 
     {
+      title: "Loopstudios",
+      tools: "React, SaSS",
+      description: "A Virtual reality website",
+      live: "https://dazzling-albattani-46fe4e.netlify.app/",
+      code: "https://github.com/Damkols/loopstudios",
+      id: 2,
+    },
+
+    {
       title: "Shopping cart API",
       tools: "Node, Express, MongoDB",
       description:
         "A simple shopping cart Api built with Node, Express, and MongoDb",
       live: "https://shopping-cart-crud-api-v2.herokuapp.com/api/posts",
       code: "https://github.com/Damkols/refactored-api",
-      id: 2,
+      id: 3,
     },
   ]);
 
