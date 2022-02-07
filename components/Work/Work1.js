@@ -34,6 +34,16 @@ const Work1 = () => {
       code: "https://github.com/Damkols/refactored-api",
       id: 3,
     },
+
+    {
+      title: "PWA Weather App",
+      tools: "React, Axios",
+      description:
+        "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
+      live: "https://62012087d2501b31ffa388fd--lucid-euler-ba1802.netlify.app/",
+      code: "https://github.com/Damkols/PWA-Weather-App",
+      id: 4,
+    },
   ]);
 
   const footerLinks = [
