@@ -17,12 +17,21 @@ const Work1 = () => {
     },
 
     {
+      title: "Covid19 tracker",
+      tools: "Vue, TailwindCss",
+      description: "A webapp that tracks confirmed Covid19 cases and deaths",
+      live: "https://co-vid19tracker.netlify.app/",
+      code: "https://github.com/Damkols/Covid-19-tracker",
+      id: 2,
+    },
+
+    {
       title: "Loopstudios",
       tools: "React, SaSS",
       description: "A Virtual reality website",
       live: "https://dazzling-albattani-46fe4e.netlify.app/",
       code: "https://github.com/Damkols/loopstudios",
-      id: 2,
+      id: 3,
     },
 
     {
@@ -32,7 +41,7 @@ const Work1 = () => {
         "A simple shopping cart Api built with Node, Express, and MongoDb",
       live: "https://shopping-cart-crud-api-v2.herokuapp.com/api/posts",
       code: "https://github.com/Damkols/refactored-api",
-      id: 3,
+      id: 4,
     },
 
     {
@@ -42,7 +51,7 @@ const Work1 = () => {
         "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
       live: "https://62012087d2501b31ffa388fd--lucid-euler-ba1802.netlify.app/",
       code: "https://github.com/Damkols/PWA-Weather-App",
-      id: 4,
+      id: 5,
     },
   ]);
 
