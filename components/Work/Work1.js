@@ -8,12 +8,27 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
   const [works, setWorks] = useState([
     {
+      title: "Covid 19 App",
+      tools: "React + Typescript",
+      description: "A website that displays Global Covid-19 data.",
+      live: "https://covid19-chart-app.vercel.app/",
+      code: "https://github.com/Damkols/Covid19-Chart-App",
+    },
+
+    {
+      title: "Hangout Dao",
+      tools: "React + Typescript, Locomotive Scroll, Framer-motion, SASS",
+      description: "A simple animated web page for an NFT project.",
+      live: "https://hangout-dao.vercel.app/",
+      code: "https://github.com/Damkols/Hangout-Dao",
+    },
+
+    {
       title: "Portfolio",
       tools: "Nextjs, CSS",
       description: "A portfolio website showcasing my works and resume.",
       live: "https://dam-kols.vercel.app/",
       code: "https://github.com/Damkols/dam-kols",
-      id: 1,
     },
 
     {
@@ -22,7 +37,6 @@ const Work1 = () => {
       description: "A webapp that tracks confirmed Covid19 cases and deaths",
       live: "https://co-vid19tracker.netlify.app/",
       code: "https://github.com/Damkols/Covid-19-tracker",
-      id: 2,
     },
 
     {
@@ -32,7 +46,6 @@ const Work1 = () => {
         "Built a Movie App that collects Movie ratings, Images, and descriptions from an API",
       live: "http://damkols.me/movies-app/",
       code: "https://github.com/Damkols/movies-app/tree/master",
-      id: 3,
     },
 
     {
@@ -42,7 +55,6 @@ const Work1 = () => {
         "A simple shopping cart Api built with Node, Express, and MongoDb",
       live: "https://shopping-cart-crud-api-v2.herokuapp.com/api/posts",
       code: "https://github.com/Damkols/refactored-api",
-      id: 4,
     },
 
     {
@@ -52,7 +64,6 @@ const Work1 = () => {
         "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
       live: "https://62012087d2501b31ffa388fd--lucid-euler-ba1802.netlify.app/",
       code: "https://github.com/Damkols/PWA-Weather-App",
-      id: 5,
     },
 
     {
@@ -61,7 +72,6 @@ const Work1 = () => {
       description: "A Virtual reality website",
       live: "https://dazzling-albattani-46fe4e.netlify.app/",
       code: "https://github.com/Damkols/loopstudios",
-      id: 6,
     },
 
     {
@@ -71,7 +81,6 @@ const Work1 = () => {
         "A landing page for kiddies learning built with React and Styled components",
       live: "https://hungry-borg-14bf26.netlify.app/",
       code: "https://github.com/Damkols/SqrLearning",
-      id: 7,
     },
 
     {
@@ -80,7 +89,6 @@ const Work1 = () => {
       description: "A Snippet landing page using React and SASS",
       live: "https://6214d2c2fa42c7babdad1a0f--boring-panini-6fc31b.netlify.app/",
       code: "https://github.com/Damkols/Snippets",
-      id: 8,
     },
 
     {
@@ -89,7 +97,6 @@ const Work1 = () => {
       description: "Love Yours, Jcole inspired Landing page",
       live: "https://jade-peony-58058d.netlify.app/",
       code: "https://github.com/Damkols/scroll-animation-with-Gsap-and-smooth-scrollbar",
-      id: 9,
     },
 
     {
@@ -98,7 +105,6 @@ const Work1 = () => {
       description: "3d stack effect Landing page built with React and CSS",
       live: "https://spiffy-narwhal-db7ddc.netlify.app/",
       code: "https://github.com/Damkols/3d-Stack-effect",
-      id: 10,
     },
   ]);
 
