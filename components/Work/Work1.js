@@ -6,155 +6,77 @@ import { FaLink } from "react-icons/fa";
 import Footer from "../Footer/Footer";
 
 const Work1 = () => {
-  const [works, setWorks] = useState([
-    {
-      title: "Covid 19 App",
-      tools: "React + Typescript",
-      description: "A website that displays Global Covid-19 data.",
-      live: "https://covid19-chart-app.vercel.app/",
-      code: "https://github.com/Damkols/Covid19-Chart-App",
-    },
+ const [works, setWorks] = useState([
+  {
+   title: "Netflix-Clone",
+   tools: "Nextjs,Typescript, Firebase, Tailwind-CSS, Recoil",
+   description: "Netflix Clone.",
+   live: "https://netflix-clone-damkols.vercel.app/",
+   code: "https://github.com/Damkols/Netflix-clone",
+  },
+  {
+   title: "Portfolio",
+   tools: "Nextjs, CSS",
+   description: "A portfolio website showcasing my works and resume.",
+   live: "https://dam-kols.vercel.app/",
+   code: "https://github.com/Damkols/dam-kols",
+  },
+  {
+   title: "EasyBank",
+   tools: "React, CSS",
+   description: "A Landing Page.",
+   live: "https://easybank-damkols.vercel.app/",
+   code: "https://github.com/Damkols/Easybank",
+  },
+ ]);
 
-    {
-      title: "Hangout Dao",
-      tools: "React + Typescript, Locomotive Scroll, Framer-motion, SASS",
-      description: "A simple animated web page for an NFT project.",
-      live: "https://hangout-dao.vercel.app/",
-      code: "https://github.com/Damkols/Hangout-Dao",
-    },
+ const footerLinks = [
+  {
+   link: "/",
+   title: "Home",
+   id: 1,
+  },
+  {
+   link: "/Resume",
+   title: "Resume",
+   id: 2,
+  },
+ ];
 
-    {
-      title: "Portfolio",
-      tools: "Nextjs, CSS",
-      description: "A portfolio website showcasing my works and resume.",
-      live: "https://dam-kols.vercel.app/",
-      code: "https://github.com/Damkols/dam-kols",
-    },
-
-    {
-      title: "Covid19 tracker",
-      tools: "Vue, TailwindCss",
-      description: "A webapp that tracks confirmed Covid19 cases and deaths",
-      live: "https://co-vid19tracker.netlify.app/",
-      code: "https://github.com/Damkols/Covid-19-tracker",
-    },
-
-    {
-      title: "Movie App",
-      tools: "React",
-      description:
-        "Built a Movie App that collects Movie ratings, Images, and descriptions from an API",
-      live: "http://damkols.me/movies-app/",
-      code: "https://github.com/Damkols/movies-app/tree/master",
-    },
-
-    {
-      title: "Shopping cart API",
-      tools: "Node, Express, MongoDB",
-      description:
-        "A simple shopping cart Api built with Node, Express, and MongoDb",
-      live: "https://shopping-cart-crud-api-v2.herokuapp.com/api/posts",
-      code: "https://github.com/Damkols/refactored-api",
-    },
-
-    {
-      title: "PWA Weather App",
-      tools: "React, Axios",
-      description:
-        "A Progressive web App that displays weather condition in Countries(Capital) all around the world",
-      live: "https://62012087d2501b31ffa388fd--lucid-euler-ba1802.netlify.app/",
-      code: "https://github.com/Damkols/PWA-Weather-App",
-    },
-
-    {
-      title: "Loopstudios",
-      tools: "React, SaSS",
-      description: "A Virtual reality website",
-      live: "https://dazzling-albattani-46fe4e.netlify.app/",
-      code: "https://github.com/Damkols/loopstudios",
-    },
-
-    {
-      title: "Kiddies Landing Page",
-      tools: "React, Styled-components",
-      description:
-        "A landing page for kiddies learning built with React and Styled components",
-      live: "https://hungry-borg-14bf26.netlify.app/",
-      code: "https://github.com/Damkols/SqrLearning",
-    },
-
-    {
-      title: "Snippet Landing Page",
-      tools: "React, SASS",
-      description: "A Snippet landing page using React and SASS",
-      live: "https://6214d2c2fa42c7babdad1a0f--boring-panini-6fc31b.netlify.app/",
-      code: "https://github.com/Damkols/Snippets",
-    },
-
-    {
-      title: "Animated Landing page",
-      tools: "HTML, SASS, Gsap, JavaScript ",
-      description: "Love Yours, Jcole inspired Landing page",
-      live: "https://jade-peony-58058d.netlify.app/",
-      code: "https://github.com/Damkols/scroll-animation-with-Gsap-and-smooth-scrollbar",
-    },
-
-    {
-      title: "Stack Landing page",
-      tools: "React, CSS",
-      description: "3d stack effect Landing page built with React and CSS",
-      live: "https://spiffy-narwhal-db7ddc.netlify.app/",
-      code: "https://github.com/Damkols/3d-Stack-effect",
-    },
-  ]);
-
-  const footerLinks = [
-    {
-      link: "/",
-      title: "Home",
-      id: 1,
-    },
-    {
-      link: "/Resume",
-      title: "Resume",
-      id: 2,
-    },
-  ];
-
-  return (
-    <div className={styles.works}>
-      {works.map((work) => (
-        <div className={styles.workCard} key="index">
-          <div className={styles.card}>
-            <h2>{work.title}</h2>
-            <h3>{work.tools}</h3>
-            <p>{work.description}</p>
-            <ul className={styles.links}>
-              <li>
-                <i>
-                  <BsFillEyeFill />
-                </i>
-                <a href={work.live} target="_blank" rel="noopener noreferrer">
-                  live
-                </a>
-              </li>
-              <li>
-                <i>
-                  <FaLink />
-                </i>
-                <a href={work.code} target="_blank" rel="noopener noreferrer">
-                  code
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      ))}
-      <div className={styles.footerlinks}>
-        <Footer footerLinks={footerLinks} />
-      </div>
+ return (
+  <div className={styles.works}>
+   {works.map((work) => (
+    <div className={styles.workCard} key="index">
+     <div className={styles.card}>
+      <h2>{work.title}</h2>
+      <h3>{work.tools}</h3>
+      <p>{work.description}</p>
+      <ul className={styles.links}>
+       <li>
+        <i>
+         <BsFillEyeFill />
+        </i>
+        <a href={work.live} target="_blank" rel="noopener noreferrer">
+         live
+        </a>
+       </li>
+       <li>
+        <i>
+         <FaLink />
+        </i>
+        <a href={work.code} target="_blank" rel="noopener noreferrer">
+         code
+        </a>
+       </li>
+      </ul>
+     </div>
     </div>
-  );
+   ))}
+   <div className={styles.footerlinks}>
+    <Footer footerLinks={footerLinks} />
+   </div>
+  </div>
+ );
 };
 
 export default Work1;
