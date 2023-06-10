@@ -8,11 +8,19 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
  const [works, setWorks] = useState([
   {
+   title: "Rawg Clone",
+   tools: "React, Chakra UI, Typescript, Axios",
+   description: "A website to check out games.",
+   live: "https://rawg-clone-six.vercel.app/",
+   code: "https://github.com/Damkols/rawg-clone",
+  },
+  {
    title: "Phastmoney Website",
-   tools: "Nextjs,Typescript, SCSS",
+   tools: "Nextjs, SCSS",
    description: "Phastmoney Website.",
    live: "https://www.phastmoney.com/",
   },
+
   {
    title: "Portfolio",
    tools: "Nextjs, CSS",
