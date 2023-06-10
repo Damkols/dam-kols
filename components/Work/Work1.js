@@ -8,11 +8,10 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
  const [works, setWorks] = useState([
   {
-   title: "Netflix-Clone",
-   tools: "Nextjs,Typescript, Firebase, Tailwind-CSS, Recoil",
-   description: "Netflix Clone.",
-   live: "https://netflix-clone-damkols.vercel.app/",
-   code: "https://github.com/Damkols/Netflix-clone",
+   title: "Phastmoney Website",
+   tools: "Nextjs,Typescript, SCSS",
+   description: "Phastmoney Website.",
+   live: "https://www.phastmoney.com/",
   },
   {
    title: "Portfolio",
