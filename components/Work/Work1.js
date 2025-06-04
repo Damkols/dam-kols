@@ -7,6 +7,12 @@ import Footer from "../Footer/Footer";
 
 const Work1 = () => {
  const [works, setWorks] = useState([
+      {
+   title: "Greenlight API",
+   tools: "Golang, PostgreSQL",
+   description: "Greenlight is a JSON API for retrieving and managing information about movies",
+   code: "https://github.com/Damkols/greenlight",
+  },
   {
    title: "Snippetbox",
    tools: "Golang, Mysql",
