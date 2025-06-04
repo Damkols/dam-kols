@@ -7,7 +7,22 @@ import Footer from "../Footer/Footer";
 
 const Work1 = () => {
  const [works, setWorks] = useState([
-      {
+
+  {
+   title: "Earth-Sustain",
+   tools: "React, Ethers.js, Thirdweb",
+   description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO) committed to championing global causes for Biodiversity, Endangered Species and nature preservation.",
+   live: "https://earth-sustain.vercel.app/details",
+   code: "https://github.com/mujibat/GoEthMe",
+  },
+  {
+   title: "Saas Landing Page",
+   tools: "Next.js, Framer-motion",
+   description: "",
+   live: "https://sass-landing-page-ochre.vercel.app/",
+   code: "https://github.com/Damkols/Sass-Landing-Page",
+  },
+        {
    title: "Greenlight API",
    tools: "Golang, PostgreSQL",
    description: "Greenlight is a JSON API for retrieving and managing information about movies",
@@ -20,11 +35,10 @@ const Work1 = () => {
    code: "https://github.com/Damkols/SnippetBox",
   },
   {
-   title: "Earth-Sustain",
-   tools: "React, Ethers.js, Thirdweb",
-   description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO) committed to championing global causes for Biodiversity, Endangered Species and nature preservation.",
-   live: "https://earth-sustain.vercel.app/details",
-   code: "https://github.com/mujibat/GoEthMe",
+   title: "Blockjack",
+   tools: "Typescript",
+   description: "A Tokenized Blackjack Game on Cartesi VM",
+   code: "https://github.com/Damkols/Blockjack",
   },
   {
    title: "Rawg Clone",
@@ -46,6 +60,13 @@ const Work1 = () => {
    description: "A portfolio website showcasing my works and resume.",
    live: "https://dam-kols.vercel.app/",
    code: "https://github.com/Damkols/dam-kols",
+  },
+  {
+   title: "Studio-Succint",
+   tools: "HTML, CSS, Javascript",
+   description: "Animated landing page for Succint.",
+   live: "https://studio-succint.vercel.app/",
+   code: "https://github.com/Damkols/studio-succint",
   },
   {
    title: "EasyBank",

@@ -37,19 +37,19 @@ const Resume = () => {
       </li>
       <li>
        <a
-        href="https://docs.google.com/document/d/1zhjwpoYs_zzRU4VOEEpuTTmWz9jz-b62FFaG2PPoB90/"
+        href="https://docs.google.com/document/d/1n0O-kug0iHbbrvb5UJMx65qv_zU45RDaK42A-oLCapI/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
        >
         <i>
          <FiDownloadCloud />
         </i>
-        <span>Download</span>
+        <span>Download Resume</span>
        </a>
       </li>
      </ul>
     </div>
-
+{/* 
     <div className={styles.template}>
      <h4>
       Front-end Developer <hr />
@@ -188,7 +188,7 @@ const Resume = () => {
       Federal University Of Technology Akure — B.Eng, Mechanical Engineering
      </h4>
      <p>2016-2021</p>
-    </div>
+    </div> */}
    </div>
    <div className={styles.footerlinks}>
     <Footer footerLinks={footerLinks} />
