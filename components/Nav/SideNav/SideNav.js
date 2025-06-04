@@ -63,6 +63,13 @@ const SideNav = () => {
                             >Twitter</a>
                             <p><i><FaExternalLinkAlt /></i></p>
                         </li>
+                        <li>
+                            <a href="https://medium.com/@damkols"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >Medium</a>
+                            <p><i><FaExternalLinkAlt /></i></p>
+                        </li>
                     </ul>
                 </div>
 

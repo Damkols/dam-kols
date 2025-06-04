@@ -56,6 +56,15 @@ const MobileLanding = () => {
        </i>
       </a>
       <a
+       href="https://medium.com/@damkols"
+       target="_blank"
+       rel="noopener noreferrer"
+      >
+       <i>
+        <FaTwitter />
+       </i>
+      </a>
+      <a
        href="https://www.linkedin.com/in/kolapo-damola-usman-810996133/"
        target="_blank"
        rel="noopener noreferrer"
