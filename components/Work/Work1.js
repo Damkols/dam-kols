@@ -8,6 +8,13 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
  const [works, setWorks] = useState([
   {
+   title: "Earth-Sustain",
+   tools: "React, Ethers.js, Thirdweb",
+   description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO) committed to championing global causes for Biodiversity, Endangered Species and nature preservation.",
+   live: "https://earth-sustain.vercel.app/details",
+   code: "https://github.com/mujibat/GoEthMe",
+  },
+  {
    title: "Rawg Clone",
    tools: "React, Chakra UI, Typescript, Axios",
    description: "A website to check out games.",
