@@ -8,6 +8,12 @@ import Footer from "../Footer/Footer";
 const Work1 = () => {
  const [works, setWorks] = useState([
   {
+   title: "Snippetbox",
+   tools: "Golang, Mysql",
+   description: "Snippetbox lets people paste and share snippets of text",
+   code: "https://github.com/Damkols/SnippetBox",
+  },
+  {
    title: "Earth-Sustain",
    tools: "React, Ethers.js, Thirdweb",
    description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO) committed to championing global causes for Biodiversity, Endangered Species and nature preservation.",
