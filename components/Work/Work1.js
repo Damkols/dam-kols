@@ -11,7 +11,7 @@ const Work1 = () => {
   {
    title: "Earth-Sustain",
    tools: "React, Ethers.js, Thirdweb",
-   description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO) committed to championing global causes for Biodiversity, Endangered Species and nature preservation.",
+   description: "Earth-sustain is a crowdfunding decentralized autonomous organization (DAO).",
    live: "https://earth-sustain.vercel.app/details",
    code: "https://github.com/mujibat/GoEthMe",
   },
